@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("https://images.hdqwalls.com/wallpapers/ondes-abstract-4k-wd.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.konteiner {
+    background-color: rgba(138, 186, 214, 0.65);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    vertical-align: text-bottom;
+    text-align: center;
+    
+    
+   
+    
+}
+
+.uudis1 {
+    background-image: url(https://creativereview.imgix.net/content/uploads/2012/02/p503_0.jpg?auto=compress,format&q=60&w=569&h=837);
+    background-size: 85px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-right: 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+    
+    
+    
+    
+    
+
+    }
+.uudis2 {
+        background-image: url(https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+        background-size: 150px;
+        background-repeat: no-repeat;
+        background-position: top;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        border: 2px solid black;
+        border-right: 0px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;}
+.uudis3 {
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg);
+            background-size: 80px;
+            background-repeat: no-repeat;
+            background-position: top;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            border: 2px solid black;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;}
+
+.uudised {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.uudis {
+    margin-top: 40px;
+}
+
+

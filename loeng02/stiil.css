@@ -2,3 +2,10 @@ input[type="text""password"] { color: gray;}
 body {background-image: url(https://my4kwallpapers.com/wp-content/uploads/2021/04/Minimalist-Wallpaper.jpg);}
 h1 {color: aquamarine;}
 label {color: aquamarine;}
+div { background-color: rgb(122, 45, 141);
+width: 350px;
+padding-top: 30px;
+padding-left: 15px;
+padding-bottom: 15px;
+margin-left: auto;
+margin-right: auto;}
