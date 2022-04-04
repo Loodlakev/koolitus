@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(pildid/taust.jpeg);
+   background-size: auto;
+    
+}
+h1 {
+display: flex;
+
+
+}
+
+.konteinerid {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid black;
+    background-color:rgba(236, 189, 150, 0.3) ;
+    
+ 
+}
+
+            
+
+.konteiner {
+    border: solid black 2px;
+    width: 250px;
+    padding: 30px;  
+}
+
+.sisu {
+    margin-bottom: 10px;
+}
+
+
