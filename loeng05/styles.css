@@ -5,8 +5,9 @@ body {
    background-size: auto;
     
 }
-h1 {
+header{
 display: flex;
+text-align: center;
 
 
 }
