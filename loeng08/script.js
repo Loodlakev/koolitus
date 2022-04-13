@@ -5,7 +5,7 @@ if (firstName.length >= 6) {
     'Tere, ' +
     firstName +
     '!' +
-    ' Küll sul on pikk suurepärane nimi.';
+    ' Küll sul on  suurepärane pikk nimi.';
   document.getElementById('image').innerHTML =
     "<img src='https://c.tenor.com/d80bOjd86a8AAAAM/tall-girl-ekaterina.gif' />";
 } 
