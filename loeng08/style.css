@@ -1,0 +1,19 @@
+body {
+    background: rgb(48, 47, 47);
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container > #name {
+    color: white;
+    font-family: "Josefine";
+    font-size: 25px;
+    font-weight: 400;
+}
