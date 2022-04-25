@@ -2,21 +2,24 @@ const todosListElement = document.getElementById('todos-list');
 const emptyListElement = document.getElementById('empty-list');
 const inputElement = document.getElementById('todo-input');
 
-const todos = [
-    {
-        title: 'Pese hambad',
-        isDone: false,
-    },
-    {
-        title: 'Söö hommikust',
-        isDone: false,
-    },
-    {
-        title: 'Tee tööd, näe vaeva',
-        isDone: false,
-    },
-    
-];
+let id = 0;
+const todos = [];
+
+function addTodo(newTitle) {
+    const newTodo = {
+            id: id,    
+            title: newTitle,
+            isDone: false,
+    };
+    todos.push(newTodo);
+}
+
+addTodo('task 4')
+->
+{
+    title: 'task 4',
+    isDone: false,
+}
 
 function renderList() {
     if (todos.length == 0) {
@@ -29,9 +32,10 @@ function renderList() {
 
     todosListElement.innerHTML = '';
     for (let i = 0; i < todos.length; i++) {
+        let todoTitleClass = 'todo-title';
         todosListElement.innerHTML += `
             <div class="todo">
-                <div class="todo-title">${todos[i].title}</div>
+                <div class="${todoTitleClass}"">${todos[i].title}</div>
                 <div class="todo-delete">x</div>
             </div>
         `;
